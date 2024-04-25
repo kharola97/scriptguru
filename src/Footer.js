@@ -18,45 +18,45 @@ const Footer = () => {
     <div className='max-sm:p-3'>
      <h1 className='text-lg font-bold '>About</h1>
      <div className='text-base text-white mt-2 flex flex-col'>
-        <a href="#" className='hover:underline'>Contact us </a>
-        <a href='#' className='hover:underline'>About us </a>
-        <a href='#' className='hover:underline'> Careers</a>
-        <a href='#' className='hover:underline'> Flipkart stories</a>
-        <a href='#' className='hover:underline'> Press </a>
-        <a href='#' className='hover:underline'>Corporate information </a>
+        <a  className='hover:underline'>Contact us </a>
+        <a  className='hover:underline'>About us </a>
+        <a  className='hover:underline'> Careers</a>
+        <a  className='hover:underline'> Flipkart stories</a>
+        <a  className='hover:underline'> Press </a>
+        <a  className='hover:underline'>Corporate information </a>
      </div>
     </div>
     <div className='max-sm:p-3'>
     <h1 className='text-lg font-bold '>Group companies</h1>
     <div className='text-base text-white mt-2 flex flex-col'>
-        <a href="#" className='hover:underline'>Myntra </a>
-        <a href="#" className='hover:underline'>Flipkart wholesale</a>
-        <a href="#" className='hover:underline'> ClearTrip</a> 
-        <a href="#" className='hover:underline'>Shopsy</a>
+        <a  className='hover:underline'>Myntra </a>
+        <a  className='hover:underline'>Flipkart wholesale</a>
+        <a  className='hover:underline'> ClearTrip</a> 
+        <a  className='hover:underline'>Shopsy</a>
 
      </div>
     </div>
     <div className='max-sm:p-3'>
     <h1 className='text-lg font-bold '>Help</h1>
     <div className='text-base text-white mt-2 flex flex-col'>
-        <a href='#' className='hover:underline'>Payments </a>
-        <a href='#' className='hover:underline'>Shipping</a>
-        <a href='#' className='hover:underline'> Cancellations and returns</a>
-        <a href='#' className='hover:underline'>FAQ</a>
-        <a href='#' className='hover:underline'>Report infringement</a>
+        <a  className='hover:underline'>Payments </a>
+        <a  className='hover:underline'>Shipping</a>
+        <a  className='hover:underline'> Cancellations and returns</a>
+        <a  className='hover:underline'>FAQ</a>
+        <a  className='hover:underline'>Report infringement</a>
       
      </div>
     </div>
     <div className='max-sm:p-3'>
     <h1 className='text-lg font-bold '>Consumer policy</h1>
     <div className='text-base text-white mt-2 flex flex-col'>
-        <a href='#' className='hover:underline'>Cancellations and returns </a>
-        <a href='#' className='hover:underline'>Terms of use</a>
-        <a href='#' className='hover:underline'>Security</a>
-        <a href='#' className='hover:underline'>Privacy</a>
-        <a href='#' className='hover:underline'>Sitemap</a>
-        <a href='#' className='hover:underline'>Grievance redressal</a>
-        <a href='#' className='hover:underline'>EPR compliance</a>
+        <a  className='hover:underline'>Cancellations and returns </a>
+        <a  className='hover:underline'>Terms of use</a>
+        <a  className='hover:underline'>Security</a>
+        <a  className='hover:underline'>Privacy</a>
+        <a  className='hover:underline'>Sitemap</a>
+        <a  className='hover:underline'>Grievance redressal</a>
+        <a  className='hover:underline'>EPR compliance</a>
       
      </div>
     </div>
@@ -70,9 +70,9 @@ const Footer = () => {
     <div className='mt-2'>
         <h1 className='text-2xl'>Socials</h1>
         <div className='flex justify-between mt-1 text-2xl'>
-          <a href='#'> <BiLogoFacebookSquare/></a> 
-          <a href='#'>    <PiYoutubeLogo/></a> 
-          <a href='#'>   <RiTwitterXFill/></a> 
+          <a > <BiLogoFacebookSquare/></a> 
+          <a>    <PiYoutubeLogo/></a> 
+          <a>   <RiTwitterXFill/></a> 
         </div>
     </div>
     </div>
