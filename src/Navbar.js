@@ -44,15 +44,15 @@ const Navbar = () => {
         </div>
         <div className='flex space-x-4 gap-10'>
         
-          <div className="relative flex">
-            <div className='text-2xl mt-5 max-sm:hidden'>
+          <div className="relative flex hover:bg-blue-600 rounded-md">
+            <div className='text-2xl mt-5 max-sm:hidden hover:text-white'>
             <CgProfile/>
             </div>
   <button
     type='submit'
     onMouseOver={handleDropDown}
     
-    className='p-4 text-xl font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-violet-300 hover:text-white max-sm:hidden'
+    className='p-4 text-xl font-semibold rounded-md focus:outline-none focus:ring focus:ring-violet-300 hover:text-white max-sm:hidden'
   >
     Login
   </button>
@@ -67,18 +67,18 @@ const Navbar = () => {
     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Giftcard</a>
   </div>
 </div>
-      <div className='flex '>
+      <div className='flex  hover:bg-blue-600'>
         <div className='max-sm:hidden text-2xl mt-5'>
        <BsCart3/>
        </div>
           <button
             type='submit'
-            className='p-4 rounded-md text-xl font-semibold hover:bg-blue-700 focus:outline-none focus:ring focus:ring-violet-300 hover:text-white max-sm:hidden'
+            className='p-4 rounded-md text-xl font-semibold  hover:text-white max-sm:hidden'
           >
             My cart
           </button>
           </div>
-          <div className='flex'> 
+          <div className='flex hover:bg-blue-600'> 
             <div className='text-2xl mt-5 max-sm:hidden'> 
                 <FaPerson/>
             </div>
