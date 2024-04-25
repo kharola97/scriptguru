@@ -23,7 +23,7 @@ const ImageCarousal = () => {
     }, [currentSlide]);
   
     return (
-      <div className="relative top-5 p-10 min-h-60">
+      <div className="relative  px-10 top-5 p-10 min-h-60">
         {images.map((image, index) => (
           <img
             key={index}

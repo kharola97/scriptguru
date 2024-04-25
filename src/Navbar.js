@@ -23,13 +23,13 @@ const Navbar = () => {
         setShowSearch(!showSearch)
     }
     return (
-      <div className='container flex justify-around gap-5 items-center mt-2 min-w-full'>
+      <div className='container flex justify-around gap-5 items-center mt-2 min-w-full p-4'>
         <h1 className='font-bold text-lg text-blue-700 mt-3'>Flipkart</h1>
-        <div className='w-2/4 relative' onClick={handleSearch}>
+        <div className='relative '  onClick={handleSearch}>
         <input
           type='search'
           placeholder='...Search for products brand and more'
-          className='p-4 px-9 w-2/4 bg-slate-100 font-semibold rounded-lg max-sm:hidden '
+          className='p-4 px-9 bg-slate-100 font-semibold rounded-lg max-sm:hidden '
         />
         <div className={`absolute z-20 right-0 left-0 w-48 bg-white rounded-md shadow-lg origin-top-right divide-y divide-gray-100 focus:outline-none ${showSearch ? "block" : "hidden"} max-sm:hidden`}
   onMouseOut={handleSearch}>
@@ -42,21 +42,21 @@ const Navbar = () => {
     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Tv</a>
   </div>
         </div>
-        <div className='flex space-x-4 gap-10'>
+        <div className='flex  gap-4 max-[910px]:text-sm'>
         
-          <div className="relative flex hover:bg-blue-600 rounded-md">
-            <div className='text-2xl mt-5 max-sm:hidden hover:text-white'>
+          <div className="relative flex justify-center items-center  hover:bg-blue-600 rounded-md">
+            <div className='text-2xl  max-sm:hidden hover:text-white'>
             <CgProfile/>
             </div>
   <button
     type='submit'
     onMouseOver={handleDropDown}
     
-    className='p-4 text-xl font-semibold rounded-md focus:outline-none focus:ring focus:ring-violet-300 hover:text-white max-sm:hidden'
+    className='p-4 text-xl font-semibold rounded-md focus:outline-none focus:ring focus:ring-violet-300 hover:text-white  max-sm:hidden'
   >
     Login
   </button>
-  <div className={`absolute z-20 right-0 top-14 mt-2 w-48 bg-white rounded-md shadow-lg origin-top-right divide-y divide-gray-100 focus:outline-none ${showdropdown ? "block" : "hidden"} max-sm:hidden`}
+  <div className={`absolute z-20 right-0 top-14 sm:top-24 mt-2 min-w-96 grid grid-cols-3 bg-white rounded-md shadow-lg origin-top-right divide-y divide-gray-100 focus:outline-none ${showdropdown ? "block" : "hidden"} max-sm:hidden`}
   onMouseOut={handleDropDown}>
   
     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >My Profile</a>
@@ -65,35 +65,42 @@ const Navbar = () => {
     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Wishlist</a>
     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Rewards</a>
     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Giftcard</a>
+    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >settings</a>
+    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >recomandation</a>
+    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Best selling items</a>
+    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Most selling items</a>
+    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Order for your friend</a>
+    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Redeem coupan codes</a>
+    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Discounts</a>
   </div>
 </div>
-      <div className='flex  hover:bg-blue-600'>
-        <div className='max-sm:hidden text-2xl mt-5'>
+      <div className='flex justify-center items-center  hover:bg-blue-600'>
+        <div className='max-sm:hidden text-2xl '>
        <BsCart3/>
        </div>
           <button
             type='submit'
-            className='p-4 rounded-md text-xl font-semibold  hover:text-white max-sm:hidden'
+            className='p-4 rounded-md text-xl font-semibold  hover:text-white max-sm:hidden md:text-sm'
           >
             My cart
           </button>
           </div>
-          <div className='flex hover:bg-blue-600'> 
-            <div className='text-2xl mt-5 max-sm:hidden'> 
+          <div className='flex justify-center items-center hover:bg-blue-600'> 
+            <div className='text-2xl  max-sm:hidden'> 
                 <FaPerson/>
             </div>
           <button
             type='submit'
-            className='p-4 rounded-md text-xl font-semibold hover:bg-blue-600 focus:outline-none focus:ring focus:ring-violet-300 hover:text-white max-sm:hidden'
+            className='p-4 rounded-md text-xl font-semibold hover:bg-blue-600 focus:outline-none focus:ring focus:ring-violet-300 hover:text-white max-sm:hidden md:text-sm'
           >
             Become a seller
           </button>
           </div>
         </div>
         
-        <div className='lg:hidden sm:block text-4xl' onClick={handleMenu}>
+        <div className='sm:hidden max-w-[867px]:text-8xl text-4xl' onClick={handleMenu}>
         {showMenu ? <RxHamburgerMenu/> : <RxCross1/>}
-        <div className={`absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg origin-top-right divide-y divide-gray-100 focus:outline-none ${showMenu ? "hidden" : "block"}`}>
+        <div className={`absolute right-0 z-30 mt-2 w-48 bg-white rounded-md shadow-lg origin-top-right divide-y divide-gray-100 focus:outline-none ${showMenu ? "hidden" : "block"}`}>
         <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >My Profile</a>
     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Flipkart plus zone</a>
     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" >Orders</a>
