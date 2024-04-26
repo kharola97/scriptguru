@@ -16,47 +16,47 @@ const Footer = () => {
     <div className=' container min-w-full flex justify-around p-4 flex-wrap max-sm:flex max-sm:flex-col'>
     
     <div className='max-sm:p-3'>
-     <h1 className='text-lg font-bold '>About</h1>
+     <h1 className='text-lg font-bold text-center'>About</h1>
      <div className='text-base text-white mt-2 flex flex-col'>
-        <a  className='hover:underline'>Contact us </a>
-        <a  className='hover:underline'>About us </a>
-        <a  className='hover:underline'> Careers</a>
-        <a  className='hover:underline'> Flipkart stories</a>
-        <a  className='hover:underline'> Press </a>
-        <a  className='hover:underline'>Corporate information </a>
+        <button  className='hover:underline'>Contact us </button>
+        <button  className='hover:underline'>About us </button>
+        <button  className='hover:underline'> Careers</button>
+        <button  className='hover:underline'> Flipkart stories</button>
+        <button  className='hover:underline'> Press </button>
+        <button  className='hover:underline'>Corporate information </button>
      </div>
     </div>
     <div className='max-sm:p-3'>
     <h1 className='text-lg font-bold '>Group companies</h1>
     <div className='text-base text-white mt-2 flex flex-col'>
-        <a  className='hover:underline'>Myntra </a>
-        <a  className='hover:underline'>Flipkart wholesale</a>
-        <a  className='hover:underline'> ClearTrip</a> 
-        <a  className='hover:underline'>Shopsy</a>
+        <button  className='hover:underline'>Myntra </button>
+        <button  className='hover:underline'>Flipkart wholesale</button>
+        <button  className='hover:underline'> ClearTrip</button> 
+        <button  className='hover:underline'>Shopsy</button>
 
      </div>
     </div>
     <div className='max-sm:p-3'>
-    <h1 className='text-lg font-bold '>Help</h1>
+    <h1 className='text-lg font-bold text-center'>Help</h1>
     <div className='text-base text-white mt-2 flex flex-col'>
-        <a  className='hover:underline'>Payments </a>
-        <a  className='hover:underline'>Shipping</a>
-        <a  className='hover:underline'> Cancellations and returns</a>
-        <a  className='hover:underline'>FAQ</a>
-        <a  className='hover:underline'>Report infringement</a>
+        <button  className='hover:underline'>Payments </button>
+        <button  className='hover:underline'>Shipping</button>
+        <button  className='hover:underline'> Cancellations and returns</button>
+        <button  className='hover:underline'>FAQ</button>
+        <button  className='hover:underline'>Report infringement</button>
       
      </div>
     </div>
     <div className='max-sm:p-3'>
-    <h1 className='text-lg font-bold '>Consumer policy</h1>
+    <h1 className='text-lg font-bold text-center'>Consumer policy</h1>
     <div className='text-base text-white mt-2 flex flex-col'>
-        <a  className='hover:underline'>Cancellations and returns </a>
-        <a  className='hover:underline'>Terms of use</a>
-        <a  className='hover:underline'>Security</a>
-        <a  className='hover:underline'>Privacy</a>
-        <a  className='hover:underline'>Sitemap</a>
-        <a  className='hover:underline'>Grievance redressal</a>
-        <a  className='hover:underline'>EPR compliance</a>
+        <button  className='hover:underline'>Cancellations and returns </button>
+        <button  className='hover:underline'>Terms of use</button>
+        <button  className='hover:underline'>Security</button>
+        <button  className='hover:underline'>Privacy</button>
+        <button  className='hover:underline'>Sitemap</button>
+        <button  className='hover:underline'>Grievance redressal</button>
+        <button  className='hover:underline'>EPR compliance</button>
       
      </div>
     </div>
@@ -70,9 +70,9 @@ const Footer = () => {
     <div className='mt-2'>
         <h1 className='text-2xl'>Socials</h1>
         <div className='flex justify-between mt-1 text-2xl'>
-          <a > <BiLogoFacebookSquare/></a> 
-          <a>    <PiYoutubeLogo/></a> 
-          <a>   <RiTwitterXFill/></a> 
+          <button > <BiLogoFacebookSquare/></button> 
+          <button>    <PiYoutubeLogo/></button> 
+          <button>   <RiTwitterXFill/></button> 
         </div>
     </div>
     </div>
